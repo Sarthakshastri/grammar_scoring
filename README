@@ -1,0 +1,18 @@
+Grammar Score AI Project is based on the audio input which is evaluated by grammar_score model , how accurate is your grammar and give a score out of 5 accordingly.
+
+It is the supervised learning technique , trained on the labled data, regression model to score the input audio.
+
+Pre-requisites are : 
+Python Libraries 
+  numpy
+  pandas
+  librosa
+  sklearn
+  pyTorch
+
+I added the comments where ever needed.
+
+To run , you need 
+  1.Directory which contain all the input audios , for the trainig purpose
+  2.Supervised Data as in audios which are already labeled.
+  3.Directory which contain all the audios on which the model will be tested.
